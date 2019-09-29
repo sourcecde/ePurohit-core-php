@@ -1,4 +1,16 @@
 <?php include('includes/header.php'); ?>
+
+<?php
+
+	if(@$_REQUEST['s']!= ""){
+		// header("Location: http://localhost/ePurohit/test.php");
+		$url = "http://localhost/ePurohit/test.php?q=".$_REQUEST['s'];
+		echo ("<SCRIPT LANGUAGE='JavaScript'> window.location.href='".$url."'; </SCRIPT>");
+		die();
+	}
+?>
+
+
 <body class="home page page-id-203 page-template page-template-page-home-php">
 	<div id="motopress-main" class="main-holder">
 		<!--Begin #motopress-main-->
@@ -39,7 +51,7 @@
 								<nav class="nav nav__primary clearfix">
 									<div class="search-form__h hidden-phone clearfix">
 										<a href="#"><i class="icon-search"></i>Search</a>
-										<form id="search-header" class="navbar-form pull-right" method="get" action="https://livedemo00.template-help.com/wordpress_48550/" accept-charset="utf-8">
+										<form id="search-header" class="navbar-form pull-right" method="post" action="index.php" accept-charset="utf-8">
 											<input type="text" name="s" placeholder="search" class="search-form_it" id="search-form_it">
 											<input type="submit" value="Go" id="search-form_is" class="search-form_is btn btn-primary">
 										</form>
