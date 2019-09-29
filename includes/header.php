@@ -6,7 +6,7 @@
 <!--[if IE 9 ]><html class="ie ie9" lang="en-US"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="en-US"> <!--<![endif]-->
 <head>
-	<title>Hindu Temple | </title>
+	<title>ePurohit </title>
 	<meta name="description" content=" | " />
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
