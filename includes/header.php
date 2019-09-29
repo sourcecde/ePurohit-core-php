@@ -11,23 +11,23 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="alternate" type="application/rss+xml" title="Hindu Temple" href="https://livedemo00.template-help.com/wordpress_48550/feed/" />
-	<link rel="alternate" type="application/atom+xml" title="Hindu Temple" href="https://livedemo00.template-help.com/wordpress_48550/feed/atom/" />
+	<!-- <link rel="alternate" type="application/rss+xml" title="Hindu Temple" href="https://livedemo00.template-help.com/wordpress_48550/feed/" /> -->
+	<!-- <link rel="alternate" type="application/atom+xml" title="Hindu Temple" href="https://livedemo00.template-help.com/wordpress_48550/feed/atom/" /> -->
 	<link rel="stylesheet" type="text/css" media="all" href="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/bootstrap/css/responsive.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/CherryFramework/css/camera.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/style.css" />
-	<link rel="alternate" type="application/rss+xml" title="Hindu Temple &raquo; Feed" href="https://livedemo00.template-help.com/wordpress_48550/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Hindu Temple &raquo; Comments Feed" href="https://livedemo00.template-help.com/wordpress_48550/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Hindu Temple &raquo; Home Comments Feed" href="https://livedemo00.template-help.com/wordpress_48550/home/feed/" />
-<link rel='stylesheet' id='flexslider-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/flexslider.css?ver=2.0' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-carousel-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.carousel.css?ver=1.24' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-theme-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.theme.css?ver=1.24' type='text/css' media='all' />
+	<!-- <link rel="stylesheet" type="text/css" media="all" href="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/CherryFramework/css/camera.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="all" href="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/style.css" /> -->
+	<!-- <link rel="alternate" type="application/rss+xml" title="Hindu Temple &raquo; Feed" href="https://livedemo00.template-help.com/wordpress_48550/feed/" /> -->
+<!-- <link rel="alternate" type="application/rss+xml" title="Hindu Temple &raquo; Comments Feed" href="https://livedemo00.template-help.com/wordpress_48550/comments/feed/" /> -->
+<!-- <link rel="alternate" type="application/rss+xml" title="Hindu Temple &raquo; Home Comments Feed" href="https://livedemo00.template-help.com/wordpress_48550/home/feed/" /> -->
+<!-- <link rel='stylesheet' id='flexslider-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/flexslider.css?ver=2.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='owl-carousel-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.carousel.css?ver=1.24' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='owl-theme-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.theme.css?ver=1.24' type='text/css' media='all' /> -->
 <link rel='stylesheet' id='font-awesome-css'  href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?ver=3.2.1' type='text/css' media='all' />
-<link rel='stylesheet' id='cherry-plugin-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/cherry-plugin/includes/css/cherry-plugin.css?ver=1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='contact-form-7-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.6' type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='cherry-plugin-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/cherry-plugin/includes/css/cherry-plugin.css?ver=1.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='contact-form-7-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.6' type='text/css' media='all' /> -->
 <link rel='stylesheet' id='theme48550-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/main-style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='magnific-popup-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/CherryFramework/css/magnific-popup.css?ver=0.9.3' type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='magnific-popup-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/CherryFramework/css/magnific-popup.css?ver=0.9.3' type='text/css' media='all' /> -->
 
 <script type='text/javascript' src='https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/CherryFramework/js/jquery-1.7.2.min.js?ver=1.7.2'></script>
 <script type='text/javascript' src='https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/js/search.js?ver=1.0'></script>
@@ -50,7 +50,7 @@ body { font-weight: normal;}
 .nav.footer-nav a { font: normal 14px/17px Lato;  color:#72523f; }
 </style>
 	<!--[if (gt IE 9)|!(IE)]><!-->
-	<script src="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/CherryFramework/js/jquery.mobile.customized.min.js" type="text/javascript"></script>
+	<!-- <script src="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/CherryFramework/js/jquery.mobile.customized.min.js" type="text/javascript"></script> -->
 	<script type="text/javascript">
 		jQuery(function(){
 			jQuery('.sf-menu').mobileMenu({defaultText: "Navigate to..."});
