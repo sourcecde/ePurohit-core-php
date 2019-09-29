@@ -8,8 +8,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="span12" data-motopress-wrapper-file="wrapper/wrapper-header.php" data-motopress-wrapper-type="header" data-motopress-id="5d6958137e636">
-						<div class="header-menus">
-	<div class="row">
+						
+
+
+
+
+	<!-- 					<div class="header-menus">
+							<div class="row">
 					<div class="span4 social-nets-wrapper top" data-motopress-type="static" data-motopress-static-file="static/static-social-networks.php">
 				<ul class="social">
 	<li class="twitter"><a href="#" title="twitter"><i class="icon-twitter"></i></a></li><li class="google-plus"><a href="#" title="google-plus"><i class="icon-google-plus"></i></a></li><li class="facebook"><a href="#" title="facebook"><i class="icon-facebook"></i></a></li><li class="pinterest"><a href="#" title="pinterest"><i class="icon-pinterest"></i></a></li><li class="linkedin"><a href="#" title="linkedin"><i class="icon-linkedin"></i></a></li><li class="rss"><a href="#" title="rss"><i class="icon-rss"></i></a></li></ul>			</div>
@@ -17,27 +22,50 @@
 			<div class="header-info">
 	<div class="phone"><span>24/7 Support:</span><i class="icon-phone"></i>+1 959 603 6035</div>
 	<div class="mail"><i class="icon-envelope-alt"></i><a href="/cdn-cgi/l/email-protection#4c212d25200c282921232025222762233e2b"><span class="__cf_email__" data-cfemail="fa979b9396ba9e9f979596939491d495889d">[email&#160;protected]</span></a></div>
-			<div class="search-form__h hidden-phone clearfix">
+		<div class="search-form__h hidden-phone clearfix">
 			<a href="#"><i class="icon-search"></i>Search</a>
 			<form id="search-header" class="navbar-form pull-right" method="get" action="https://livedemo00.template-help.com/wordpress_48550/" accept-charset="utf-8">
 				<input type="text" name="s" placeholder="search" class="search-form_it" id="search-form_it">
 				<input type="submit" value="Go" id="search-form_is" class="search-form_is btn btn-primary">
 			</form>
 		</div>
-	</div>		</div>
-	</div>
+	</div>		
 </div>
+	</div>
+</div> -->
+
+
+
+
 <div class="row logo-wrap">
 	<div class="span5" data-motopress-type="static" data-motopress-static-file="static/static-logo.php">
 		<!-- BEGIN LOGO -->
 <div class="logo pull-left">
-									<a href="https://livedemo00.template-help.com/wordpress_48550/" class="logo_h logo_h__img"><img src="images/ePurohit_logo_small.png" alt="Hindu Temple" title=""></a>
-				</div>
-<!-- END LOGO -->	</div>
-	<div class="span7" data-motopress-type="static" data-motopress-static-file="static/static-nav.php">
-		<!-- BEGIN MAIN NAVIGATION -->
+<a href="https://livedemo00.template-help.com/wordpress_48550/" class="logo_h logo_h__img"><img src="images/ePurohit_logo_small.png" alt="Hindu Temple" title=""></a>
+</div>
+<!-- END LOGO -->	
+</div>
+
+<div class="span7" data-motopress-type="static" data-motopress-static-file="static/static-nav.php">
+		
+
+<!-- BEGIN MAIN NAVIGATION -->
 <nav class="nav nav__primary clearfix">
-<ul id="topnav" class="sf-menu"><li id="menu-item-1956" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item"><a href="https://livedemo00.template-help.com/wordpress_48550/">Home</a></li>
+
+
+
+	<div class="search-form__h hidden-phone clearfix">
+		<a href="#"><i class="icon-search"></i>Search</a>
+		<form id="search-header" class="navbar-form pull-right" method="get" action="https://livedemo00.template-help.com/wordpress_48550/" accept-charset="utf-8">
+			<input type="text" name="s" placeholder="search" class="search-form_it" id="search-form_it">
+			<input type="submit" value="Go" id="search-form_is" class="search-form_is btn btn-primary">
+		</form>
+	</div>
+
+
+
+
+<!-- <ul id="topnav" class="sf-menu"><li id="menu-item-1956" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item"><a href="https://livedemo00.template-help.com/wordpress_48550/">Home</a></li>
 <li id="menu-item-1959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://livedemo00.template-help.com/wordpress_48550/about-temple/">About Temple</a>
 <ul class="sub-menu">
 	<li id="menu-item-1960" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/about-temple/testi/">Testimonials</a></li>
@@ -61,11 +89,24 @@
 </ul>
 </li>
 <li id="menu-item-1953" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/contacts/">Contacts</a></li>
-</ul></nav><!-- END MAIN NAVIGATION -->	</div>
-</div>					</div>
-				</div>
-			</div>
-		</header>
+</ul> -->
+
+
+
+
+</nav>
+<!-- END MAIN NAVIGATION -->
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
 <div class="motopress-wrapper content-holder clearfix">
 	<div class="info-content-wrap">
 		<div class="container">
