@@ -21,8 +21,8 @@
 						<meta name="viewport" content="width=device-width, initial-scale=1.0">
 						<!-- <link rel="alternate" type="application/rss+xml" title="Hindu Temple" href="https://livedemo00.template-help.com/wordpress_48550/feed/" /> -->
 						<!-- <link rel="alternate" type="application/atom+xml" title="Hindu Temple" href="https://livedemo00.template-help.com/wordpress_48550/feed/atom/" /> -->
-						<link rel="stylesheet" type="text/css" media="all" href="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/bootstrap/css/bootstrap.css" />
-						<link rel="stylesheet" type="text/css" media="all" href="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/bootstrap/css/responsive.css" />
+						<link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
+						<link rel="stylesheet" type="text/css" media="all" href="css/responsive.css" />
 						<!-- <link rel="stylesheet" type="text/css" media="all" href="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/CherryFramework/css/camera.css" /> -->
 						<!-- <link rel="stylesheet" type="text/css" media="all" href="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/style.css" /> -->
 						<!-- <link rel="alternate" type="application/rss+xml" title="Hindu Temple &raquo; Feed" href="https://livedemo00.template-help.com/wordpress_48550/feed/" /> -->
@@ -36,8 +36,8 @@
 						<!-- <link rel='stylesheet' id='contact-form-7-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.6' type='text/css' media='all' /> -->
 						<link rel='stylesheet' id='theme48550-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/main-style.css' type='text/css' media='all' />
 						<!-- <link rel='stylesheet' id='magnific-popup-css'  href='https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/CherryFramework/css/magnific-popup.css?ver=0.9.3' type='text/css' media='all' /> -->
-						<script type='text/javascript' src='https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/CherryFramework/js/jquery-1.7.2.min.js?ver=1.7.2'></script>
-						<script type='text/javascript' src='https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/js/search.js?ver=1.0'></script>
+						<script type='text/javascript' src='js/jquery-1.7.2.min.js?ver=1.7.2'></script>
+						<script type='text/javascript' src='js/search.js?ver=1.0'></script>
 						<style type='text/css'>
 							body { background-image:url(https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/images/bg.jpg); background-repeat:repeat; background-position:top center; background-attachment:scroll; }
 							.header { background-color:#ffffff }

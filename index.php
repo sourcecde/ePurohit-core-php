@@ -119,7 +119,7 @@
 										<div class="span4">
 											<div class="service-box services-home-one">
 												<figure class="icon">
-													<img src="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/images/icon1.png" alt="" />
+													<img src="images/icon1.png" alt="" />
 												</figure>
 												<div class="service-box_body">
 													<h2 class="title">Perspiciatis</h2>
@@ -133,7 +133,7 @@
 										<div class="span4">
 											<div class="service-box services-home-one">
 												<figure class="icon">
-													<img src="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/images/icon2.png" alt="" />
+													<img src="images/icon2.png" alt="" />
 												</figure>
 												<div class="service-box_body">
 													<h2 class="title">Voluptatem</h2>
@@ -147,7 +147,7 @@
 										<div class="span4">
 											<div class="service-box services-home-one">
 												<figure class="icon">
-													<img src="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/images/icon3.png" alt="" />
+													<img src="images/icon3.png" alt="" />
 												</figure>
 												<div class="service-box_body">
 													<h2 class="title">Accusantium</h2>
@@ -171,7 +171,7 @@
 												<div class="row">
 													<div class="span5">
 														<figure class="frame thumbnail alignleft clearfix">
-															<p><img alt="home-1" src="https://livedemo00.template-help.com/wordpress_48550/wp-content/uploads/2014/02/home-1.png" width="162" height="183" /></p>
+															<p><img alt="home-1" src="images/home-1.png" width="162" height="183" /></p>
 														</figure>
 														<div class="extra-wrap">
 															<div class="spacer"></div>
@@ -185,7 +185,7 @@
 														<div class="spacer"></div>
 														<!-- .spacer (end) -->
 														<p style="text-align: center;">
-															<img class="size-full wp-image-1912 aligncenter" alt="watch-video" src="https://livedemo00.template-help.com/wordpress_48550/wp-content/uploads/2014/02/watch-video.png" width="129" height="66" />
+															<img class="size-full wp-image-1912 aligncenter" alt="watch-video" src="images/watch-video.png" width="129" height="66" />
 														</p>
 													</div>
 												</div>
@@ -321,7 +321,7 @@
 										<div class="span3">
 											<div class="service-box services-home-two">
 												<figure class="icon">
-													<img src="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/images/icon4.png" alt="" />
+													<img src="images/icon4.png" alt="" />
 												</figure>
 												<div class="service-box_body">
 													<h2 class="title">Quisque nulla</h2>
@@ -334,7 +334,7 @@
 										<div class="span3">
 											<div class="service-box services-home-two">
 												<figure class="icon">
-													<img src="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/images/icon5.png" alt="" />
+													<img src="images/icon5.png" alt="" />
 												</figure>
 												<div class="service-box_body">
 													<h2 class="title">Vestibulum libero</h2>
@@ -346,7 +346,7 @@
 										</div>
 										<div class="span3">
 											<div class="service-box services-home-two">
-												<figure class="icon"><img src="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/images/icon6.png" alt="" /></figure>
+												<figure class="icon"><img src="images/icon6.png" alt="" /></figure>
 												<div class="service-box_body">
 													<h2 class="title">Porta vel</h2>
 													<div class="service-box_txt">Sed ut perspiciatis unde s iste natus error sit voluptatem accusanloremque laudantium, totam re eaque ipsa tis et quasi architecto beatae vitae dicta. </div>
@@ -356,7 +356,7 @@
 										</div>
 										<div class="span3">
 											<div class="service-box services-home-two">
-												<figure class="icon"><img src="https://livedemo00.template-help.com/wordpress_48550/wp-content/themes/theme48550/images/icon7.png" alt="" /></figure>
+												<figure class="icon"><img src="images/icon7.png" alt="" /></figure>
 												<div class="service-box_body">
 													<h2 class="title">Scelerisque</h2>
 													<div class="service-box_txt">Sed ut perspiciatis unde s iste natus error sit voluptatem accusanloremque laudantium, totam re eaque ipsa tis et quasi architecto beatae vitae dicta. </div>
