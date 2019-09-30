@@ -4,7 +4,7 @@
 
 	if(@$_REQUEST['s']!= ""){
 		// header("Location: http://localhost/ePurohit/test.php");
-		$url = "http://localhost/ePurohit/find_purohit.php?q=".$_REQUEST['s'];
+		$url = "purohit.php?q=".$_REQUEST['s'];
 		echo ("<SCRIPT LANGUAGE='JavaScript'> window.location.href='".$url."'; </SCRIPT>");
 		die();
 	}

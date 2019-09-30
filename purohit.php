@@ -4,8 +4,10 @@
 
 	if($_SERVER['REQUEST_METHOD'] == 'GET') {
 		$q = $_GET['q'];
-		$sql = "SELECT * FROM tbl_purohit INNER JOIN tbl_location ON tbl_purohit.location_id = tbl_location.id AND tbl_location.name LIKE '%".$q."%'";
+		$sql = "SELECT * FROM tbl_purohit INNER JOIN tbl_location ON tbl_purohit.location_id = tbl_location.id AND tbl_location.name LIKE '".$q."'";
 		$result = mysqli_query($con,$sql);
+		$num_rows = mysqli_num_rows($result);
+
 	}
 ?>
 
@@ -63,8 +65,12 @@
 									<div class="row">
 										<div class="span12">
 											<div class="title-box clearfix ">
+												<?php if($num_rows){?>
 												<h2 class="title-box_primary">Search Results</h2>
 												<h3 class="title-box_secondary"><?php echo $q; ?></h3>
+												<?php }else{?>
+												<h2 class="title-box_primary">No Result Found</h2>
+												<?php }?>
 											</div>
 											<!-- //.title-box -->
 										</div>
@@ -76,14 +82,14 @@
 										<div class="span3">
 											<div class="service-box services-home-two">
 												<figure class="icon">
-													<img src="images/icon4.png" alt="" />
+													<img src="images/chanakya.png" alt="" />
 												</figure>
 												<div class="service-box_body">
 													<h2 class="title"><?php echo $row[1]; ?></h2>
 													<div class="service-box_txt">
 														Contact : <?php echo $row[5]; ?><br>
-														Address : <?php echo $row[3]; ?><br>
-														PIN : <?php echo $row[4]; ?><br>
+														<!-- Address : <?php echo $row[3]; ?><br> -->
+														<!-- PIN : <?php echo $row[4]; ?><br> -->
 														Age : <?php echo $row[2]; ?><br>
 														Grade : <?php echo $row[7]; ?>
 													</div>

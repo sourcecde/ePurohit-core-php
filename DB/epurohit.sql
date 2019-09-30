@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 30, 2019 at 04:21 PM
+-- Generation Time: Sep 30, 2019 at 06:32 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -178,7 +178,30 @@ INSERT INTO `tbl_purohit` (`id`, `name`, `age`, `address`, `zip`, `contact`, `lo
 (9, 'Archana Das', 56, 'Barrackpore', 712235, '9887655431', 4, 3),
 (10, 'Titir Roy', 52, 'uttarpara', 777892, '9685741642', 5, 3),
 (11, 'Rajdeep Ban', 53, 'Kalyani', 326548, '9564871324', 10, 2),
-(12, 'Juhi Maji', 64, 'Hooghly', 125436, '5977486213', 20, 3);
+(12, 'Juhi Maji', 64, 'Hooghly', 125436, '5977486213', 20, 3),
+(13, 'Suvam Basak', 65, '3 Santinagar Road Bhadrakali Hooghly', 712232, '9051446080', 1, 3),
+(14, 'Debraj ghosh', 45, 'uttarpara', 712232, '9905136581', 1, 4),
+(15, 'Archana Pandey', 56, 'Barrackpore', 712235, '9887655431', 1, 3),
+(16, 'Titir Ghosh', 52, 'SEA', 777892, '9685741642', 1, 3),
+(17, 'Rajdeep Chowdhury', 53, 'Kalyani', 326548, '9564871324', 1, 2),
+(18, 'Juhi Juhi', 64, 'Hooghly', 125436, '5977486213', 1, 3),
+(19, 'Suvam Roy', 65, 'Uttarpara', 712232, '9051446080', 1, 3),
+(20, 'Debraj Biswas', 45, 'uttarpara', 712232, '9905136581', 1, 4),
+(21, 'Archana Das', 56, 'Barrackpore', 712235, '9887655431', 1, 3),
+(22, 'Suvam Basak', 65, '3 Santinagar Road Bhadrakali Hooghly', 712232, '9051446080', 5, 3),
+(23, 'Debraj ghosh', 45, 'uttarpara', 712232, '9905136581', 5, 4),
+(24, 'Suvam Basak', 65, '3 Santinagar Road Bhadrakali Hooghly', 712232, '9051446080', 2, 3),
+(25, 'Debraj ghosh', 45, 'uttarpara', 712232, '9905136581', 2, 4),
+(26, 'Archana Pandey', 56, 'Barrackpore', 712235, '9887655431', 2, 3),
+(27, 'Suvam Basak', 65, '3 Santinagar Road Bhadrakali Hooghly', 712232, '9051446080', 1, 3),
+(28, 'Debraj ghosh', 45, 'uttarpara', 712232, '9905136581', 1, 4),
+(29, 'Archana Pandey', 56, 'Barrackpore', 712235, '9887655431', 1, 3),
+(30, 'Titir Ghosh', 52, 'SEA', 777892, '9685741642', 1, 3),
+(31, 'Rajdeep Chowdhury', 53, 'Kalyani', 326548, '9564871324', 1, 2),
+(32, 'Juhi Juhi', 64, 'Hooghly', 125436, '5977486213', 1, 3),
+(33, 'Suvam Roy', 65, 'Uttarpara', 712232, '9051446080', 1, 3),
+(34, 'Debraj Biswas', 45, 'uttarpara', 712232, '9905136581', 1, 4),
+(35, 'Archana Das', 56, 'Barrackpore', 712235, '9887655431', 1, 3);
 
 -- --------------------------------------------------------
 
@@ -297,7 +320,7 @@ ALTER TABLE `tbl_location`
 -- AUTO_INCREMENT for table `tbl_purohit`
 --
 ALTER TABLE `tbl_purohit`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `tbl_rate`
