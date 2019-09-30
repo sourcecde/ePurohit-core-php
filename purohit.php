@@ -90,9 +90,15 @@
 														Contact : <?php echo $row[5]; ?><br>
 														<!-- Address : <?php echo $row[3]; ?><br> -->
 														<!-- PIN : <?php echo $row[4]; ?><br> -->
-														Age : <?php echo $row[2]; ?><br>
+														Age : <?php echo $row[2]; ?>
 														Grade : <?php echo $row[7]; ?>
+														
+														<div>
+															<input class="btn-primary" type="submit" value="Book">
+														</div>
+
 													</div>
+
 												</div>
 											</div>
 											<!-- /Service Box -->
