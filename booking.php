@@ -1,14 +1,13 @@
 <?php 
 	include('includes/header.php');
-	// include('includes/dbconnect.php');
+	include('includes/dbconnect.php');
 
-	// if($_SERVER['REQUEST_METHOD'] == 'GET') {
-	// 	$q = $_GET['q'];
-	// 	$sql = "SELECT * FROM tbl_purohit INNER JOIN tbl_location ON tbl_purohit.location_id = tbl_location.id AND tbl_location.name LIKE '".$q."'";
-	// 	$result = mysqli_query($con,$sql);
-	// 	$num_rows = mysqli_num_rows($result);
+	if($_SERVER['REQUEST_METHOD'] == 'GET') {
+		$purohit_id = $_GET['id'];
+		
+		//echo $purohit_id;
 
-	// }
+	}
 ?>
 
 
