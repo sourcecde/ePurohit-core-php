@@ -32,7 +32,7 @@
 								<nav class="nav nav__primary clearfix">
 									<div class="search-form__h">
 										<form method="post" action="index.php" accept-charset="utf-8">
-											<input type="text" name="search" id="search_bar" placeholder="Search">
+											<input type="text" name="search" id="search_bar" placeholder="Search" autocomplete="off">
 											<div id="suggestion"></div>
 										</form>
 										
