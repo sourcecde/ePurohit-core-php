@@ -31,11 +31,10 @@
 							<div class="span7" data-motopress-type="static" data-motopress-static-file="static/static-nav.php">
 								<!-- BEGIN MAIN NAVIGATION -->
 								<nav class="nav nav__primary clearfix">
-									<div class="search-form__h hidden-phone clearfix">
-										<a href="#"><i class="icon-search"></i>Search</a>
-										<form id="search-header" class="navbar-form pull-right" method="post" action="index.php" accept-charset="utf-8">
-											<input type="text" name="s" placeholder="search" class="search-form_it" id="search-form_it">
-											<input type="submit" value="Go" id="search-form_is" class="search-form_is btn btn-primary">
+									<div class="search-form__h">
+										<form method="post" action="index.php" accept-charset="utf-8">
+											<input type="text" name="search" id="search_bar" placeholder="Search">
+											<div id="suggestion"></div>
 										</form>
 									</div>
 									

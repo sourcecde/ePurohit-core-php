@@ -2,14 +2,13 @@
 
 <?php
 
-	if(@$_REQUEST['s']!= ""){
+	if(@$_REQUEST['search']!= ""){
 		// header("Location: http://localhost/ePurohit/test.php");
-		$url = "purohit.php?q=".$_REQUEST['s'];
+		$url = "purohit.php?q=".$_REQUEST['search'];
 		echo ("<SCRIPT LANGUAGE='JavaScript'> window.location.href='".$url."'; </SCRIPT>");
 		die();
 	}
 ?>
-
 
 <body class="home page page-id-203 page-template page-template-page-home-php">
 	<div id="motopress-main" class="main-holder">
@@ -18,69 +17,26 @@
 			<div class="container">
 				<div class="row">
 					<div class="span12" data-motopress-wrapper-file="wrapper/wrapper-header.php"data-motopress-wrapper-type="header" data-motopress-id="5d6958137e636">
-						<!-- 					<div class="header-menus">
-							<div class="row">
-							<div class="span4 social-nets-wrapper top" data-motopress-type="static" data-motopress-static-file="static/static-social-networks.php">
-							<ul class="social">
-							<li class="twitter"><a href="#" title="twitter"><i class="icon-twitter"></i></a></li><li class="google-plus"><a href="#" title="google-plus"><i class="icon-google-plus"></i></a></li><li class="facebook"><a href="#" title="facebook"><i class="icon-facebook"></i></a></li><li class="pinterest"><a href="#" title="pinterest"><i class="icon-pinterest"></i></a></li><li class="linkedin"><a href="#" title="linkedin"><i class="icon-linkedin"></i></a></li><li class="rss"><a href="#" title="rss"><i class="icon-rss"></i></a></li></ul>			</div>
-							<div class="span8" data-motopress-type="static" data-motopress-static-file="static/static-header-info.php">
-							<div class="header-info">
-							<div class="phone"><span>24/7 Support:</span><i class="icon-phone"></i>+1 959 603 6035</div>
-							<div class="mail"><i class="icon-envelope-alt"></i><a href="/cdn-cgi/l/email-protection#4c212d25200c282921232025222762233e2b"><span class="__cf_email__" data-cfemail="fa979b9396ba9e9f979596939491d495889d">[email&#160;protected]</span></a></div>
-							<div class="search-form__h hidden-phone clearfix">
-							<a href="#"><i class="icon-search"></i>Search</a>
-							<form id="search-header" class="navbar-form pull-right" method="get" action="https://livedemo00.template-help.com/wordpress_48550/" accept-charset="utf-8">
-							<input type="text" name="s" placeholder="search" class="search-form_it" id="search-form_it">
-							<input type="submit" value="Go" id="search-form_is" class="search-form_is btn btn-primary">
-							</form>
-							</div>
-							</div>		
-							</div>
-							</div>
-							</div> -->
+						
 						<div class="row logo-wrap">
 							<div class="span5" data-motopress-type="static" data-motopress-static-file="static/static-logo.php">
 								<!-- BEGIN LOGO -->
 								<div class="logo pull-left">
 									<a href="https://livedemo00.template-help.com/wordpress_48550/" class="logo_h logo_h__img"><img src="images/ePurohit_logo_small.png" alt="Hindu Temple" title=""></a>
+
 								</div>
-								<!-- END LOGO -->	
+								<!-- END LOGO -->
 							</div>
 							<div class="span7" data-motopress-type="static" data-motopress-static-file="static/static-nav.php">
 								<!-- BEGIN MAIN NAVIGATION -->
 								<nav class="nav nav__primary clearfix">
-									<div class="search-form__h hidden-phone clearfix">
-										<a href="#"><i class="icon-search"></i>Search</a>
-										<form id="search-header" class="navbar-form pull-right" method="post" action="index.php" accept-charset="utf-8">
-											<input type="text" name="s" placeholder="search" class="search-form_it" id="search-form_it">
-											<input type="submit" value="Go" id="search-form_is" class="search-form_is btn btn-primary">
+									<div class="search-form__h">
+										<form method="post" action="index.php" accept-charset="utf-8">
+											<input type="text" name="search" id="search_bar" placeholder="Search">
+											<div id="suggestion"></div>
 										</form>
+										
 									</div>
-									<!-- <ul id="topnav" class="sf-menu"><li id="menu-item-1956" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item"><a href="https://livedemo00.template-help.com/wordpress_48550/">Home</a></li>
-										<li id="menu-item-1959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://livedemo00.template-help.com/wordpress_48550/about-temple/">About Temple</a>
-										<ul class="sub-menu">
-											<li id="menu-item-1960" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/about-temple/testi/">Testimonials</a></li>
-											<li id="menu-item-1961" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/about-temple/archives/">Archives</a></li>
-											<li id="menu-item-1954" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/about-temple/faqs/">FAQs</a></li>
-										</ul>
-										</li>
-										<li id="menu-item-1958" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/services/">Services</a></li>
-										<li id="menu-item-1955" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/news-media/">News &#038; Media</a></li>
-										<li id="menu-item-1957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://livedemo00.template-help.com/wordpress_48550/portfolio/">Gallery</a>
-										<ul class="sub-menu">
-											<li id="menu-item-1964" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/portfolio/portfolio-2/">Gallery 2</a></li>
-											<li id="menu-item-1963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://livedemo00.template-help.com/wordpress_48550/portfolio/portfolio-3/">Gallery 3</a>
-											<ul class="sub-menu">
-												<li id="menu-item-1973" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/portfolio/portfolio-3/category-1/">Category 1</a></li>
-												<li id="menu-item-1972" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/portfolio/portfolio-3/category-2/">Category 2</a></li>
-												<li id="menu-item-1971" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/portfolio/portfolio-3/category-3/">Category 3</a></li>
-											</ul>
-										</li>
-											<li id="menu-item-1962" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/portfolio/portfolio-4/">Gallery 4</a></li>
-										</ul>
-										</li>
-										<li id="menu-item-1953" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://livedemo00.template-help.com/wordpress_48550/contacts/">Contacts</a></li>
-										</ul> -->
 								</nav>
 								<!-- END MAIN NAVIGATION -->
 							</div>

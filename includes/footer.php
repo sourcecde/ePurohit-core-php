@@ -9,3 +9,30 @@
 </script>
 <!-- End Google Tag Manager -->
 </html>
+<script>
+	$(document).ready(function(){
+		$('#search_bar').keyup(function(){
+			var query = $(this).val();
+			//alert(query);
+			if(query!='')
+			{
+				$.ajax({
+					url:"search.php",
+					method:"POST",
+					data:{query:query},
+					success:function(data)
+					{
+						$('#suggestion').html(data);
+					}
+				});
+			}
+			else{
+				$('#suggestion').html();
+			}
+		});
+		$(document).on('click','li',function(){
+			$('#search_bar').val($(this).text());
+			$('#suggestion').fadeOut();
+		});
+	});
+</script>
