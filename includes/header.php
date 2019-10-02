@@ -54,6 +54,7 @@
 
 							#suggestion_item{
 								margin-top: 45px;
+								list-style-type: none;
 							}
 						</style>
 
