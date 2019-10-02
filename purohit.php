@@ -49,7 +49,7 @@
 							<div class="span5" data-motopress-type="static" data-motopress-static-file="static/static-logo.php">
 								<!-- BEGIN LOGO -->
 								<div class="logo pull-left">
-									<a href="https://livedemo00.template-help.com/wordpress_48550/" class="logo_h logo_h__img"><img src="images/ePurohit_logo_small.png" alt="Hindu Temple" title=""></a>
+									<a href="index.php" class="logo_h logo_h__img"><img src="images/ePurohit_logo_small.png" alt="Hindu Temple" title=""></a>
 								</div>
 								<!-- END LOGO -->	
 							</div>
