@@ -30,13 +30,27 @@
 							<div class="span7" data-motopress-type="static" data-motopress-static-file="static/static-nav.php">
 								<!-- BEGIN MAIN NAVIGATION -->
 								<nav class="nav nav__primary clearfix">
-									<div class="search-form__h">
+									<!-- <div class="search-form__h">
 										<form method="post" action="index.php" accept-charset="utf-8">
 											<input type="text" name="search" id="search_bar" placeholder="Search" autocomplete="off">
 											<div id="suggestion"></div>
 										</form>
 										
+									</div> -->
+
+
+
+									<div class="search-form__h">
+										<a href="#"><i class="icon-search"></i></a>
+										<form id="search-header" class="navbar-form pull-right" method="post" action="index.php" accept-charset="utf-8">
+											<input type="text" name="search" autocomplete="off" placeholder="search" class="search-form_it" id="search_bar">
+											<input type="submit" value="Go" id="search-form_is" class="search-form_is btn btn-primary">
+											<div id="suggestion"></div>
+										</form>
 									</div>
+
+
+
 								</nav>
 								<!-- END MAIN NAVIGATION -->
 							</div>

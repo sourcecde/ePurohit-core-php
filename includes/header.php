@@ -44,6 +44,15 @@
 						
 						<script type='text/javascript' src='js/jquery-1.7.2.min.js?ver=1.7.2'></script>
 						<script type='text/javascript' src='js/search.js?ver=1.0'></script>
+						
+						<!-- OUR OWN -->
+						<style type="text/css">
+							#suggestion{
+								color:white;
+								font-size:large;
+							}
+						</style>
+
 						<style type='text/css'>
 							body { background-image:url(images/bg.jpg); background-repeat:repeat; background-position:top center; background-attachment:scroll; }
 							.header { background-color:#ffffff }
