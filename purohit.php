@@ -1,17 +1,15 @@
 <?php 
 	include('includes/header.php');
 	include('includes/dbconnect.php');
-
+	
 	if($_SERVER['REQUEST_METHOD'] == 'GET') {
 		$q = $_GET['q'];
 		$sql = "SELECT * FROM tbl_purohit INNER JOIN tbl_location ON tbl_purohit.location_id = tbl_location.id AND tbl_location.name LIKE '".$q."'";
 		$result = mysqli_query($con,$sql);
 		$num_rows = mysqli_num_rows($result);
-
+	
 	}
-?>
-
-
+	?>
 <body class="home page page-id-203 page-template page-template-page-home-php">
 	<div id="motopress-main" class="main-holder">
 		<!--Begin #motopress-main-->
@@ -19,7 +17,34 @@
 			<div class="container">
 				<div class="row">
 					<div class="span12" data-motopress-wrapper-file="wrapper/wrapper-header.php"data-motopress-wrapper-type="header" data-motopress-id="5d6958137e636">
-						
+						<div class="header-menus">
+							<div class="row">
+								<div class="span4 social-nets-wrapper top" data-motopress-type="static" data-motopress-static-file="static/static-social-networks.php">
+									<ul class="social">
+										<li class="twitter"><a href="#" title="twitter"><i class="icon-twitter"></i></a></li>
+										<li class="google-plus"><a href="#" title="google-plus"><i class="icon-google-plus"></i></a></li>
+										<li class="facebook"><a href="#" title="facebook"><i class="icon-facebook"></i></a></li>
+										<li class="pinterest"><a href="#" title="pinterest"><i class="icon-pinterest"></i></a></li>
+										<li class="linkedin"><a href="#" title="linkedin"><i class="icon-linkedin"></i></a></li>
+										<li class="rss"><a href="#" title="rss"><i class="icon-rss"></i></a></li>
+									</ul>
+								</div>
+								<div class="span8" data-motopress-type="static" data-motopress-static-file="static/static-header-info.php">
+									<div class="header-info">
+										<div class="phone"><span>24/7 Support:</span><i class="icon-phone"></i>+1 959 603 6035</div>
+										<div class="mail"><i class="icon-envelope-alt"></i><a href="/cdn-cgi/l/email-protection#4c212d25200c282921232025222762233e2b"><span class="__cf_email__" data-cfemail="fa979b9396ba9e9f979596939491d495889d">support@epurohit.com</span></a></div>
+										<div class="search-form__h hidden-phone clearfix">
+											<a href="#"><i class="icon-search"></i>Search</a>
+											<form id="search-header" class="navbar-form pull-right" method="post" action="index.php" accept-charset="utf-8">
+												<input type="text" name="search" placeholder="search" class="search-form_it" id="search_bar" autocomplete="off">
+												<input type="submit" value="Go" id="search-form_is" class="search-form_is btn btn-primary">
+												<div id="suggestion"></div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="row logo-wrap">
 							<div class="span5" data-motopress-type="static" data-motopress-static-file="static/static-logo.php">
 								<!-- BEGIN LOGO -->
@@ -36,19 +61,15 @@
 											<input type="text" name="search" id="search_bar" placeholder="Search" autocomplete="off">
 											<div id="suggestion"></div>
 										</form>
-									</div> -->
-
-
-
-									<div class="search-form__h">
+										</div> -->
+									<!-- <div class="search-form__h">
 										<a href="#"><i class="icon-search"></i></a>
 										<form id="search-header" class="navbar-form pull-right" method="post" action="index.php" accept-charset="utf-8">
 											<input type="text" name="search" autocomplete="off" placeholder="search" class="search-form_it" id="search_bar">
 											<input type="submit" value="Go" id="search-form_is" class="search-form_is btn btn-primary">
 											<div id="suggestion"></div>
 										</form>
-									</div>
-									
+										</div> -->
 								</nav>
 								<!-- END MAIN NAVIGATION -->
 							</div>
@@ -71,7 +92,6 @@
 						<div class="row">
 							<div class="span12" data-motopress-type="loop" data-motopress-loop-file="loop/loop-page.php">
 								<div id="post-203" class="post-203 page type-page status-publish hentry page">
-
 									<div class="row">
 										<div class="span12">
 											<div class="title-box clearfix ">
@@ -84,11 +104,9 @@
 											</div>
 											<!-- //.title-box -->
 										</div>
-
 										<?php 
 											while($row = mysqli_fetch_array($result)){
-										?>
-
+											?>
 										<div class="span3">
 											<div class="service-box services-home-two">
 												<figure class="icon">
@@ -102,32 +120,20 @@
 														<!-- PIN : <?php echo $row[4]; ?><br> -->
 														Age : <?php echo $row[2]; ?>
 														Grade : <?php echo $row[7]; ?>
-														
 														<div>
 															<a href="<?php echo 'booking.php?id='.$row[0]; ?>">
 															<input class="btn-primary" type="submit" value="Book">
 															</a>
 														</div>
 													</div>
-
 												</div>
 											</div>
 											<!-- /Service Box -->
 										</div>
-
-
 										<?php
 											}
-										?>
-
-
+											?>
 									</div>
-
-
-
-
-
-
 									<!-- .row (end) -->
 									<div class="darker-box pad-2">
 										<div class="row">
@@ -240,7 +246,7 @@
 								<div class="footer-info">
 									<div class="label-name">Feel free to contact us:</div>
 									<div class="phone"><i class="icon-phone"></i>+1 959 603 6035</div>
-									<div class="mail"><i class="icon-envelope-alt"></i><a href="/cdn-cgi/l/email-protection#4d202c24210d292820222124232663223f2a"><span class="__cf_email__" data-cfemail="ee838f8782ae8a8b838182878085c0819c89">[email&#160;protected]</span></a></div>
+									<div class="mail"><i class="icon-envelope-alt"></i><a href="/cdn-cgi/l/email-protection#4d202c24210d292820222124232663223f2a"><span class="__cf_email__" data-cfemail="ee838f8782ae8a8b838182878085c0819c89">support@epurohit.com</span></a></div>
 								</div>
 							</div>
 						</div>

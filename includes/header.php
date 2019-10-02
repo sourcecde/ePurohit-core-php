@@ -51,6 +51,10 @@
 								color:white;
 								font-size:large;
 							}
+
+							#suggestion_item{
+								margin-top: 45px;
+							}
 						</style>
 
 						<style type='text/css'>

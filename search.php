@@ -4,7 +4,7 @@ if(isset($_POST["query"])){
 	$output = '';
 	$sql="SELECT * FROM `tbl_location` WHERE name LIKE '%".$_POST["query"]."%'";
 	$result = mysqli_query($con,$sql);
-	$output = '<ul>';
+	$output = '<ul id="suggestion">';
 
 	if(mysqli_num_rows($result) > 0){
 		while($row = mysqli_fetch_array($result)){
@@ -23,7 +23,7 @@ else{
 		$output = '';
 	$sql="SELECT * FROM `tbl_location` WHERE name LIKE '%".$_GET["query"]."%'";
 	$result = mysqli_query($con,$sql);
-	$output = '<ul>';
+	$output = '<ul id="suggestion_item">';
 
 	if(mysqli_num_rows($result) > 0){
 		while($row = mysqli_fetch_array($result)){
