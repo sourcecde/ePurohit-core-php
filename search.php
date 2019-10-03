@@ -2,7 +2,7 @@
 include('includes/dbconnect.php');
 if(isset($_POST["query"])){
 	$output = '';
-	$sql="SELECT * FROM `tbl_location` WHERE name LIKE '%".$_POST["query"]."%'";
+	$sql="SELECT * FROM `tbl_location` WHERE name LIKE '".$_POST["query"]."%'";
 	$result = mysqli_query($con,$sql);
 	$output = '<ul id="suggestion">';
 
